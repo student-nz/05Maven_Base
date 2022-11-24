@@ -112,16 +112,16 @@
 
       ![image-20221124152101017](assets\image-20221124152101017.png)
 
- - 4. 配置阿里云镜像服务器：修改 conf/settings.xml 中的 <mirrors>标签，为其添加如下子标签：
+ - 4. maven 配置阿里云镜像：修改 conf/settings.xml 中的 <mirrors>标签，为其添加如下子标签：
 
-      ![image-20221124152755640](assets\image-20221124152755640.png)
+      ![image-20221124163944063](assets\image-20221124163944063.png)
 
 ```
-<mirror>
-	<id>nexus-aliyun</id>
+<mirror> 
+	<id>alimaven</id>
+	<name>aliyun maven</name>
+	<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 	<mirrorOf>central</mirrorOf>
-	<name>Nexus aliyun</name>
-	<url>http://maven.aliyun.com/nexus/content/groups/public</url>
 </mirror>
 ```
 
