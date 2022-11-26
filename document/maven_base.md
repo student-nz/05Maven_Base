@@ -216,7 +216,7 @@
 
 ![image-20221124155415366](assets\image-20221124155415366.png)
 
-# 11. IDEA创建Maven项目
+# 14. IDEA创建Maven项目
 
 - 1. 创建模块，选择Maven，点击Next
 
@@ -228,7 +228,7 @@
 
 ![image-20221124155957940](assets\image-20221124155957940.png)
 
-# 12. IDEA 导入 Maven 项目
+# 15. IDEA 导入 Maven 项目
 
 - 1. 选择右侧Maven面板，点击 + 号
 - 2. 选中对应项目的pom.xml文件，双击即可
@@ -241,7 +241,7 @@
 
 ![image-20221030182328244](assets\image-20221030182328244.png)
 
-# 13. 配置 Maven-Helper 插件
+# 16. 配置 Maven-Helper 插件
 
 - 1. 选择 IDEA中 File --> Settings
 - 2. 选择 Plugins
@@ -256,7 +256,7 @@
 
 ![image-20221030182534170](assets\image-20221030182534170.png)
 
-# 13. 依赖管理
+# 17. 依赖管理
 
 ​	**使用坐标导入 jar 包 步骤**
 - 1. 在 pom.xml 中编写 <dependencies> 标签
@@ -289,7 +289,7 @@
 
 ![image-20221030182927688](assets\image-20221030182927688.png)
 
-# 14. 依赖范围
+# 18. 依赖范围
 
 ​	通过设置坐标的依赖范围(scope)，可以设置 对应jar包的作用范围：编译环境、测试环境、运行环境
 ​	**<scope>默认值：**compile
