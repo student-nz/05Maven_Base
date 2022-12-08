@@ -112,7 +112,7 @@
 
       ![image-20221124152101017](assets\image-20221124152101017.png)
 
- - 4. maven 配置阿里云镜像：修改 conf/settings.xml 中的 <mirrors>标签，为其添加如下子标签：
+ - 4. maven 配置阿里云私服：修改 conf/settings.xml 中的 <mirrors>标签，为其添加如下子标签：
 
       ![image-20221124163944063](assets\image-20221124163944063.png)
 
@@ -297,3 +297,4 @@
 ![image-20221030183045220](assets\image-20221030183045220.png)
 
 ![image-20221030183053406](assets\image-20221030183053406.png)
+
