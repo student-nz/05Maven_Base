@@ -108,9 +108,9 @@
 
       Maven配置文件位置：maven根目录/conf/settings.xml
 
-      自定义本地仓库【默认本地仓库：C:/用户家目录/.m2/repository】
+       自定义本地仓库【默认本地仓库：C:/用户家目录/.m2/repository】
 
-      ![image-20221124152101017](assets\image-20221124152101017.png)
+       ![image-20221124152101017](assets\image-20221124152101017.png)
 
  - 4. maven 配置阿里云私服：修改 conf/settings.xml 中的 <mirrors>标签，为其添加如下子标签：
 
@@ -233,7 +233,7 @@
 - 1. 选择右侧Maven面板，点击 + 号
 - 2. 选中对应项目的pom.xml文件，双击即可
 - 3. 如果没有Maven面板，选择
-       View -> Appearance -> Tool Window Bars
+     View -> Appearance -> Tool Window Bars
 
 ![image-20221030182244589](assets\image-20221030182244589.png)
 
@@ -259,6 +259,7 @@
 # 17. 依赖管理
 
 ​	**使用坐标导入 jar 包 步骤**
+
 - 1. 在 pom.xml 中编写 <dependencies> 标签
 - 2. 在 <dependencies> 标签中 使用 <dependency> 引入坐标
 - 3. 定义坐标的 groupId，artifactId，version
@@ -281,6 +282,7 @@
 ![image-20221030182839814](assets\image-20221030182839814.png)
 
 ​	**使用坐标导入 jar 包 – 自动导入**
+
 - 1. 选择 IDEA中 File --> Settings
 - 2. 在弹出的面板中找到 Build Tools
 - 3. 选择 Any changes，点击 ok 即可生效
